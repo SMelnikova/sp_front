@@ -1,0 +1,19 @@
+body {
+    font-family: Tahoma,Arial,Sans Serif;
+    background-color: #090C13;
+    height: 100%;
+    position: relative;
+    margin: 0px;
+}
+
+.wrapper{
+    width: 1920px;
+    margin: 0 auto;
+}
+
+.back {
+    width: 1920px;
+    height: 4797px;
+    background: url(../img/Layer_1_3.png) 0px 150px no-repeat, url(../img/Layer_1_0.png) top center no-repeat, url(../img/Layer_1_1.png) 100% -140px no-repeat;
+    background-size: 110% 100%, 100%, 100%;
+}
