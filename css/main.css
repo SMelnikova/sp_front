@@ -1,3 +1,8 @@
+@font-face {
+    font-family: 'A_Futuricalt_Thin'; /*a name to be used later*/
+    src: url(../fonts/tXunPkvF.ttf); /*URL to font*/
+}
+
 body {
     font-family: Tahoma,Arial,Sans Serif;
     background-color: #090C13;
@@ -17,3 +22,72 @@ body {
     background: url(../img/Layer_1_3.png) 0px 150px no-repeat, url(../img/Layer_1_0.png) top center no-repeat, url(../img/Layer_1_1.png) 100% -140px no-repeat;
     background-size: 110% 100%, 100%, 100%;
 }
+
+header {
+    background-color: #1d1f26;
+    position: fixed;
+    left: 0;
+    right: 0;
+    margin: 0 auto;
+    top: 30px;
+    width: 1160px;
+    height: 60px;
+    z-index: 100;
+}
+
+.to-right{
+    position: absolute;
+    right: 25px;
+    top: 35%;
+}
+
+.name_in_menu{
+    font: normal 32px 'A_Futuricalt_Thin';
+    text-decoration: none;
+    color: #ffffff;
+    text-transform: uppercase;
+    float: left;
+    margin-left: 25px;
+    position: absolute;
+    top: 15%;
+}
+
+.nav{
+    margin-left: 200px;
+}
+.nav ul{
+    margin: 0;
+}
+.nav ul > li{
+    list-style: none;
+    padding-left: 10px;
+    float: left;
+    line-height: 4.2;
+
+    width: 160px;
+    height: 60px;
+    border-left: 1px solid #3c3d41;
+}
+
+.nav ul > li:hover {
+    border-color: #fff;
+    background-color: #FFFEF9;
+    cursor: pointer;
+}
+
+.nav ul > li > a{
+    color: #EEE8DE;
+    text-decoration: none;
+    font-size: 11px;
+    font-weight: bold;
+    padding-left: 10px;
+    background: url(../img/marker.png) 0px 3px no-repeat;
+}
+.nav ul > li:hover > a {
+    color: #303030;
+    background: url(../img/marker_hover.png) 0px 3px no-repeat;
+}
+.nav ul > li.last {
+    border-right: 1px solid #3c3d41;
+}
+
