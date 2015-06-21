@@ -19,6 +19,12 @@ $(function() {
         }
     });
 
+    //отлавливает клик по li и заставляет работать внутреннюю ссылку
+    $(".nav li").on( "click", function( event ) {
+        event.preventDefault();
+        $(this).find('a').click();
+    });
+
     $(window).bind('scroll', function(e){
         var scrollTop = $(window).scrollTop();
         $('.back').css('top', (scrollTop * 0.3) + 'px');
