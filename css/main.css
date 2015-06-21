@@ -13,11 +13,13 @@ body {
 
 .wrapper{
     max-width: 1760px;
+    min-width: 1024px;
     margin: 0 auto;
 }
 
 .back {
     max-width: 1760px;
+    min-width: 1024px;
     height: 4797px;
     background: url(../img/Layer_1_3.png) 0px 150px no-repeat, url(../img/Layer_1_0.png) top center no-repeat, url(../img/Layer_1_1.png) 100% -140px no-repeat;
     background-size: 110% 100%, 100%, 100%;
