@@ -3,12 +3,16 @@
     src: url(../fonts/tXunPkvF.ttf); /*URL to font*/
 }
 
+html{
+    margin: 0;
+}
+
 body {
     font-family: Tahoma,Arial,Sans Serif;
     background-color: #090C13;
     height: 100%;
     position: relative;
-    margin: 0px;
+    margin: 0;
 }
 
 .wrapper{
